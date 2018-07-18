@@ -1,0 +1,2 @@
+Ubuntu change user to root command:
+sudo -i
