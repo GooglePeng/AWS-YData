@@ -1,0 +1,12 @@
+我是如何一步一步使用git的？
+1. 安装git，自行百度
+2.设置自己的昵称和email
+	git config --global user.name "GooglePeng"
+	git config --global user.email "205889075@qq.com"
+3.看在User/occam/下有没有.ssh文件夹，如果没有就用这个命令：
+	ssh-keygen -t rsa -C "205889075@qq.com"
+4.为了方便起见你需提前在Giuthub上创建仓库然后在这里用git clone https://XXXXXX
+5.然后你就会在User/occam/下看到你创建的那个仓库文件夹
+6.然后进入那个仓库文件夹，在里面创建txt文件
+7.git add filename（必须要写全文件名及文件格式）
+8. git push
