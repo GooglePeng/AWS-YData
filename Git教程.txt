@@ -10,3 +10,11 @@
 6.然后进入那个仓库文件夹，在里面创建txt文件
 7.git add filename（必须要写全文件名及文件格式）
 8. git push
+
+
+从第6步开始注意：
+git init
+git add filename（必须要写全文件名及文件格式）
+git commit -m "first commit"
+git status 
+git push
